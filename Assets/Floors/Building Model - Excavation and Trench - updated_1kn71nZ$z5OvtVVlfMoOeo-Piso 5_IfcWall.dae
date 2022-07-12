@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2022-05-31T08:08:13</created>
+    <modified>2022-05-31T08:08:13</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Concreto,_Faixa_de_areia/cimento-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.498039 0.498039 0.498039 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Concreto,_Faixa_de_areia/cimento">
+      <instance_effect url="#Concreto,_Faixa_de_areia/cimento-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-31533">
+      <mesh>
+        <source id="representation-31533-positions">
+          <float_array id="representation-31533-positions-array" count="162">1.44246 -1.24386 1.85 1.44246 -1.24386 -0.75 -1.05755 -1.24386 1.85 -1.12755 -1.24386 1.85 -1.12755 -1.24386 -0.75 -1.06755 -1.24386 -0.75 -1.06755 -1.24386 0.71 1.43245 -1.24386 0.71 1.43245 -1.24386 -0.75 1.44246 -1.10386 1.85 1.44246 -1.10386 -0.75 1.44246 -1.20386 1.85 1.44246 -1.24386 1.85 1.44246 -1.24386 -0.75 1.44246 -1.20386 -0.75 -1.12755 -1.10386 1.85 -1.12755 -1.10386 -0.75 1.44246 -1.10386 1.85 1.44246 -1.10386 -0.75 1.43245 -1.10386 -0.75 1.43245 -1.10386 0.71 -1.06755 -1.10386 0.71 -1.06755 -1.10386 -0.75 -1.12755 -1.24386 1.85 -1.12755 -1.10386 1.85 -1.05755 -1.24386 1.85 1.44246 -1.24386 1.85 1.44246 -1.20386 1.85 1.44246 -1.10386 1.85 -1.12755 -1.24386 1.85 -1.12755 -1.24386 -0.75 -1.12755 -1.10386 1.85 -1.12755 -1.10386 -0.75 1.44246 -1.24386 -0.75 1.44246 -1.20386 -0.75 1.43245 -1.24386 -0.75 1.43245 -1.10386 -0.75 1.44246 -1.10386 -0.75 1.43245 -1.24386 0.71 1.43245 -1.24386 -0.75 1.43245 -1.10386 0.71 1.43245 -1.10386 -0.75 1.43245 -1.10386 0.71 -1.06755 -1.10386 0.71 1.43245 -1.24386 0.71 -1.06755 -1.24386 0.71 -1.06755 -1.10386 0.71 -1.06755 -1.10386 -0.75 -1.06755 -1.24386 0.71 -1.06755 -1.24386 -0.75 -1.06755 -1.24386 -0.75 -1.06755 -1.10386 -0.75 -1.12755 -1.24386 -0.75 -1.12755 -1.10386 -0.75</float_array>
+          <technique_common>
+            <accessor source="#representation-31533-positions-array" count="54" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-31533-normals">
+          <float_array id="representation-31533-normals-array" count="162">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969</float_array>
+          <technique_common>
+            <accessor source="#representation-31533-normals-array" count="54" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-31533-texcoord-0">
+          <float_array id="representation-31533-texcoord-0-array" count="108">1.44246 1.85 1.44246 -0.75 -1.05755 1.85 -1.12755 1.85 -1.12755 -0.75 -1.06755 -0.75 -1.06755 0.71 1.43245 0.71 1.43245 -0.75 -1.10386 1.85 -1.10386 -0.75 -1.20386 1.85 -1.24386 1.85 -1.24386 -0.75 -1.20386 -0.75 1.12755 1.85 1.12755 -0.75 -1.44246 1.85 -1.44246 -0.75 -1.43245 -0.75 -1.43245 0.71 1.06755 0.71 1.06755 -0.75 -1.12755 -1.24386 -1.12755 -1.10386 -1.05755 -1.24386 1.44246 -1.24386 1.44246 -1.20386 1.44246 -1.10386 1.24386 1.85 1.24386 -0.75 1.10386 1.85 1.10386 -0.75 -1.44246 -1.24386 -1.44246 -1.20386 -1.43245 -1.24386 -1.43245 -1.10386 -1.44246 -1.10386 1.24386 0.71 1.24386 -0.75 1.10386 0.71 1.10386 -0.75 -1.43245 -1.10386 1.06755 -1.10386 -1.43245 -1.24386 1.06755 -1.24386 -1.10386 0.71 -1.10386 -0.75 -1.24386 0.71 -1.24386 -0.75 1.06755 -1.24386 1.06755 -1.10386 1.12755 -1.24386 1.12755 -1.10386</float_array>
+          <technique_common>
+            <accessor source="#representation-31533-texcoord-0-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-31533-texcoord-1">
+          <float_array id="representation-31533-texcoord-1-array" count="108">0.5 4.58497e-08 0.5 0.5 0.986381 0.0 1.0 0.0 1.0 0.5 0.988328 0.5 0.988328 0.219231 0.501949 0.219231 0.501949 0.5 0.0544745 1.0 0.0544745 0.5 0.0350193 1.0 0.0272373 1.0 0.0272373 0.5 0.0350193 0.5 0.0 1.37549e-07 6.95771e-08 0.5 0.5 0.0 0.5 0.5 0.498051 0.5 0.498051 0.219231 0.011672 0.219231 0.011672 0.5 0.0544746 0.994233 0.0817118 0.994233 0.0544746 0.980771 0.0544745 0.5 0.0622566 0.5 0.0817117 0.5 0.0 0.5 6.95771e-08 1.0 0.0272372 0.5 0.0272373 1.0 0.177045 0.526923 0.177045 0.519231 0.175096 0.526923 0.175096 0.5 0.177045 0.5 0.108949 0.5 0.108949 0.780769 0.136186 0.5 0.136186 0.780769 0.0817118 0.5 0.0817119 0.980769 0.108949 0.5 0.108949 0.980769 0.163424 0.780769 0.163424 0.5 0.136186 0.780769 0.136186 0.5 0.175096 0.526923 0.175096 0.5 0.163424 0.526923 0.163424 0.5</float_array>
+          <technique_common>
+            <accessor source="#representation-31533-texcoord-1-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-31533-vertices">
+          <input semantic="POSITION" source="#representation-31533-positions"/>
+        </vertices>
+        <triangles material="Concreto,_Faixa_de_areia/cimento" count="34">
+          <input semantic="VERTEX" source="#representation-31533-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-31533-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-31533-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-31533-texcoord-1" offset="0" set="1"/>
+          <p>6 2 3 5 6 4 7 0 2 7 2 6 1 7 8 1 0 7 3 4 6 11 10 9 11 14 10 12 13 14 12 14 11 21 22 16 20 18 19 17 20 21 17 21 15 16 15 21 17 18 20 24 23 25 27 25 26 28 24 25 28 25 27 30 29 31 30 31 32 34 33 35 36 37 34 35 36 34 39 38 40 39 40 41 43 42 44 43 44 45 48 47 46 48 49 47 53 51 50 53 50 52 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="1E8SKnNqX5thf6LEZxuDu1" name="1E8SKnNqX5thf6LEZxuDu1" type="NODE">
+        <matrix sid="transform">-0.00000004 1.00000000 0.00000000 53.00000000 -1.00000000 -0.00000004 0.00000000 9.00000000 0.00000000 0.00000000 1.00000000 20.00000000 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-31533">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Concreto,_Faixa_de_areia/cimento" target="#Concreto,_Faixa_de_areia/cimento"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

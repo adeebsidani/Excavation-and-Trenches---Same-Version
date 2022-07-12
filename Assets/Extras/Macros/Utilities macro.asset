@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Utilities macro
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"utilities
+      prevention animations","summary":"This is the macro for showing the good measures
+      to prevent Utilities Brokes on construction sites ","pan":{"x":9.225636,"y":77.9658},"zoom":0.8,"elements":[{"defaultValues":{"duration":{"$content":9.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-403.0,"y":-94.0},"guid":"94883451-5a73-43d8-9d6f-89bf224741e4","$version":"A","$type":"Bolt.Timer","$id":"9"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":209.0,"y":-290.0},"guid":"0ff2ec09-41c7-4863-832f-d3d6c3ba3ff6","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Utilities","$type":"System.String"},"object":null},"position":{"x":-28.0,"y":-74.0},"guid":"308a80f7-6e91-49fd-86a2-c42c29e6aab4","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":308.0,"y":176.0},"guid":"66359edc-4251-4888-b7c4-835a8e03e903","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-682.0,"y":-2.0},"guid":"2e4e1ce6-60a8-4cf9-a988-59fe08ecb82a","$version":"A","$type":"Bolt.OnButtonClick","$id":"19"},{"sourceUnit":{"$ref":"19"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"start","guid":"94308aad-5b30-4d71-9757-221b4c0c2681","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"started","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"0637a160-1d87-4de5-99fd-a75b5d1a07fd","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"completed","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"9e6b511e-f33a-41fb-bb7b-9ac321b48c9c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"b6412573-1d37-4638-8aa2-5f4333f19542","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"7489f870-427c-4ca8-8db6-a59394483b8a","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

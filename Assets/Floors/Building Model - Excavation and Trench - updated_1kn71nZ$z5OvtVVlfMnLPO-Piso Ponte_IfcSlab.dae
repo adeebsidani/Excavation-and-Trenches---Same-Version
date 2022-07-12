@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2022-05-31T08:08:25</created>
+    <modified>2022-05-31T08:08:25</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Concreto,_Moldado_in_loco-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.752941 0.752941 0.752941 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Concreto,_Faixa_de_areia/cimento-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.498039 0.498039 0.498039 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Azulejo_cerâmico-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.32549 0.32549 0.32549 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Concreto,_Moldado_in_loco">
+      <instance_effect url="#Concreto,_Moldado_in_loco-fx"/>
+    </material>
+    <material id="Concreto,_Faixa_de_areia/cimento">
+      <instance_effect url="#Concreto,_Faixa_de_areia/cimento-fx"/>
+    </material>
+    <material id="Azulejo_cerâmico">
+      <instance_effect url="#Azulejo_cerâmico-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-814249-layerset-814265">
+      <mesh>
+        <source id="representation-814249-layerset-814265-positions">
+          <float_array id="representation-814249-layerset-814265-positions-array" count="204">54.3803 6.55758 -0.93 54.3803 9.05755 -0.93 54.3803 9.05755 -1.07 54.3803 6.55758 -1.07 54.3803 6.55758 -0.93 54.3803 9.05755 -0.93 63.4203 9.05755 -0.93 63.4203 6.55758 -0.93 63.4203 9.05755 -0.93 54.3803 9.05755 -0.93 63.4203 9.05755 -1.07 54.3803 9.05755 -1.07 54.3803 6.55758 -1.07 54.3803 9.05755 -1.07 63.4203 9.05755 -1.07 63.4203 6.55758 -1.07 63.4203 6.55758 -0.93 54.3803 6.55758 -0.93 54.3803 6.55758 -1.07 63.4203 6.55758 -1.07 63.4203 6.55758 -0.93 63.4203 9.05755 -0.93 63.4203 6.55758 -1.07 63.4203 9.05755 -1.07 54.3803 6.55758 -0.92 54.3803 9.05755 -0.92 54.3803 6.55758 -0.92 54.3803 9.05755 -0.92 63.4203 9.05755 -0.92 63.4203 6.55758 -0.92 63.4203 9.05755 -0.92 54.3803 9.05755 -0.92 63.4203 9.05755 -0.93 54.3803 9.05755 -0.93 54.3803 6.55758 -0.93 54.3803 9.05755 -0.93 63.4203 9.05755 -0.93 63.4203 6.55758 -0.93 63.4203 6.55758 -0.92 54.3803 6.55758 -0.92 54.3803 6.55758 -0.93 63.4203 6.55758 -0.93 63.4203 6.55758 -0.92 63.4203 9.05755 -0.92 63.4203 6.55758 -0.93 63.4203 9.05755 -0.93 54.3803 6.55758 -0.9 54.3803 9.05755 -0.9 54.3803 6.55758 -0.9 54.3803 9.05755 -0.9 63.4203 9.05755 -0.9 63.4203 6.55758 -0.9 54.3803 9.05755 -0.9 63.4203 9.05755 -0.9 63.4203 9.05755 -0.92 54.3803 9.05755 -0.92 54.3803 6.55758 -0.92 54.3803 9.05755 -0.92 63.4203 9.05755 -0.92 63.4203 6.55758 -0.92 63.4203 6.55758 -0.9 54.3803 6.55758 -0.9 54.3803 6.55758 -0.92 63.4203 6.55758 -0.92 63.4203 9.05755 -0.9 63.4203 6.55758 -0.9 63.4203 6.55758 -0.92 63.4203 9.05755 -0.92</float_array>
+          <technique_common>
+            <accessor source="#representation-814249-layerset-814265-positions-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814249-layerset-814265-normals">
+          <float_array id="representation-814249-layerset-814265-normals-array" count="204">-1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-814249-layerset-814265-normals-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814249-layerset-814265-texcoord-0">
+          <float_array id="representation-814249-layerset-814265-texcoord-0-array" count="136">-6.55758 -0.93 -9.05755 -0.93 -9.05755 -1.07 -6.55758 -1.07 54.3803 6.55758 54.3803 9.05755 63.4203 9.05755 63.4203 6.55758 -63.4203 -0.93 -54.3803 -0.93 -63.4203 -1.07 -54.3803 -1.07 -54.3803 6.55758 -54.3803 9.05755 -63.4203 9.05755 -63.4203 6.55758 63.4203 -0.93 54.3803 -0.93 54.3803 -1.07 63.4203 -1.07 6.55758 -0.93 9.05755 -0.93 6.55758 -1.07 9.05755 -1.07 -6.55758 -0.92 -9.05755 -0.92 54.3803 6.55758 54.3803 9.05755 63.4203 9.05755 63.4203 6.55758 -63.4203 -0.92 -54.3803 -0.92 -63.4203 -0.93 -54.3803 -0.93 -54.3803 6.55758 -54.3803 9.05755 -63.4203 9.05755 -63.4203 6.55758 63.4203 -0.92 54.3803 -0.92 54.3803 -0.93 63.4203 -0.93 6.55758 -0.92 9.05755 -0.92 6.55758 -0.93 9.05755 -0.93 -6.55758 -0.9 -9.05755 -0.9 54.3803 6.55758 54.3803 9.05755 63.4203 9.05755 63.4203 6.55758 -54.3803 -0.9 -63.4203 -0.9 -63.4203 -0.92 -54.3803 -0.92 -54.3803 6.55758 -54.3803 9.05755 -63.4203 9.05755 -63.4203 6.55758 63.4203 -0.9 54.3803 -0.9 54.3803 -0.92 63.4203 -0.92 9.05755 -0.9 6.55758 -0.9 6.55758 -0.92 9.05755 -0.92</float_array>
+          <technique_common>
+            <accessor source="#representation-814249-layerset-814265-texcoord-0-array" count="68" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814249-layerset-814265-texcoord-1">
+          <float_array id="representation-814249-layerset-814265-texcoord-1-array" count="136">0.00195575 1.0 0.00195574 0.783364 0.0110823 0.783364 0.0110823 1.0 0.977835 0.0 0.814862 0.0 0.814862 0.783364 0.977835 0.783364 0.986961 0.0 0.986962 0.783364 0.996088 0.0 0.996088 0.783364 0.488917 0.783364 0.325945 0.783364 0.325945 0.0 0.488917 0.0 0.986961 0.0 0.986962 0.783364 0.977835 0.783364 0.977835 0.0 0.0202088 1.0 0.0202088 0.783364 0.0110823 1.0 0.0110823 0.783364 0.00130408 1.0 0.00130407 0.783364 0.814862 0.0 0.65189 0.0 0.65189 0.783364 0.814862 0.783364 0.998696 0.0 0.998696 0.783364 0.999348 0.0 0.999348 0.783364 0.325945 0.783364 0.162973 0.783364 0.162972 0.0 0.325945 0.0 1.0 0.0 1.0 0.783364 0.999348 0.783364 0.999348 0.0 0.0215129 0.783364 0.0215129 1.0 0.0221648 0.783364 0.0221648 1.0 1.16568e-08 1.0 0.0 0.783364 0.65189 0.0 0.488917 0.0 0.488918 0.783364 0.65189 0.783364 0.996088 0.783364 0.996088 0.0 0.997392 0.0 0.997392 0.783364 0.162972 0.783364 1.86509e-07 0.783364 0.0 0.0 0.162972 0.0 0.998696 0.0 0.998696 0.783364 0.997392 0.783364 0.997392 0.0 0.0202088 1.0 0.0202088 0.783364 0.0215129 0.783364 0.0215129 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-814249-layerset-814265-texcoord-1-array" count="68" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-814249-layerset-814265-vertices">
+          <input semantic="POSITION" source="#representation-814249-layerset-814265-positions"/>
+        </vertices>
+        <triangles material="Concreto,_Moldado_in_loco" count="12">
+          <input semantic="VERTEX" source="#representation-814249-layerset-814265-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-814249-layerset-814265-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-814249-layerset-814265-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-814249-layerset-814265-texcoord-1" offset="0" set="1"/>
+          <p>2 3 1 3 0 1 7 5 4 6 5 7 10 11 8 11 9 8 14 12 13 14 15 12 18 19 17 19 16 17 22 23 20 23 21 20 </p>
+        </triangles>
+        <triangles material="Concreto,_Faixa_de_areia/cimento" count="12">
+          <input semantic="VERTEX" source="#representation-814249-layerset-814265-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-814249-layerset-814265-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-814249-layerset-814265-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-814249-layerset-814265-texcoord-1" offset="0" set="1"/>
+          <p>1 0 25 0 24 25 29 27 26 28 27 29 33 31 32 32 31 30 34 35 37 37 35 36 40 41 39 41 38 39 44 45 42 45 43 42 </p>
+        </triangles>
+        <triangles material="Azulejo_cerâmico" count="12">
+          <input semantic="VERTEX" source="#representation-814249-layerset-814265-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-814249-layerset-814265-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-814249-layerset-814265-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-814249-layerset-814265-texcoord-1" offset="0" set="1"/>
+          <p>25 24 47 24 46 47 49 48 50 48 51 50 55 52 54 54 52 53 56 57 59 59 57 58 62 63 61 63 60 61 66 67 65 67 64 65 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="0e8lTfwBXE3h3QTYsq$53b" name="0e8lTfwBXE3h3QTYsq$53b" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 1.00000000 0.00000000 1.00000000 0.00000000 0.00000000 1.00000000 7.00000000 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814249-layerset-814265">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Concreto,_Moldado_in_loco" target="#Concreto,_Moldado_in_loco"/>
+              <instance_material symbol="Concreto,_Faixa_de_areia/cimento" target="#Concreto,_Faixa_de_areia/cimento"/>
+              <instance_material symbol="Azulejo_cerâmico" target="#Azulejo_cerâmico"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

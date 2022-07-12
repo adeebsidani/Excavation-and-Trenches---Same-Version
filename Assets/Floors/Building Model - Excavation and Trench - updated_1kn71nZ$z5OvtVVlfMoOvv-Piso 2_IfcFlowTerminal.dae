@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2022-05-31T08:08:24</created>
+    <modified>2022-05-31T08:08:24</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Materiał_Przesłony_PMMA_LENA-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.94902 0.94902 0.94902 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="WHITE-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.945098 0.945098 0.945098 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Materiał_Przesłony_PMMA_LENA">
+      <instance_effect url="#Materiał_Przesłony_PMMA_LENA-fx"/>
+    </material>
+    <material id="WHITE">
+      <instance_effect url="#WHITE-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-1233420">
+      <mesh>
+        <source id="representation-1233420-positions">
+          <float_array id="representation-1233420-positions-array" count="216">0.2763 0.2763 0.0 0.2763 0.2763 0.066 -0.2763 0.2763 0.0 -0.2763 0.2763 0.066 -0.2763 0.2763 0.0 -0.2763 0.2763 0.066 -0.2763 -0.2763 0.0 -0.2763 -0.2763 0.066 -0.2763 -0.2763 0.0 -0.2763 -0.2763 0.066 0.2763 -0.2763 0.0 0.2763 -0.2763 0.066 0.2763 -0.2763 0.0 0.2763 -0.2763 0.066 0.2763 0.2763 0.0 0.2763 0.2763 0.066 0.2763 0.2763 0.0 -0.2763 0.2763 0.0 -0.2763 -0.2763 0.0 0.2763 -0.2763 0.0 0.2763 0.2763 0.066 -0.2763 0.2763 0.066 -0.2763 -0.2763 0.066 0.2763 -0.2763 0.066 0.31 0.31 0.0 0.31 0.31 0.068 -0.31 0.31 0.0 -0.31 0.31 0.068 -0.31 0.31 0.0 -0.31 0.31 0.068 -0.31 -0.31 0.0 -0.31 -0.31 0.068 -0.31 -0.31 0.0 -0.31 -0.31 0.068 0.31 -0.31 0.0 0.31 -0.31 0.068 0.31 -0.31 0.0 0.31 -0.31 0.068 0.31 0.31 0.0 0.31 0.31 0.068 0.2763 0.2763 0.0 0.2763 0.2763 0.068 0.2763 -0.2763 0.0 0.2763 -0.2763 0.068 0.2763 -0.2763 0.0 0.2763 -0.2763 0.068 -0.2763 -0.2763 0.0 -0.2763 -0.2763 0.068 -0.2763 -0.2763 0.0 -0.2763 -0.2763 0.068 -0.2763 0.2763 0.0 -0.2763 0.2763 0.068 -0.2763 0.2763 0.0 -0.2763 0.2763 0.068 0.2763 0.2763 0.0 0.2763 0.2763 0.068 0.31 0.31 0.0 -0.31 0.31 0.0 -0.31 -0.31 0.0 0.31 -0.31 0.0 0.2763 0.2763 0.0 0.2763 -0.2763 0.0 -0.2763 -0.2763 0.0 -0.2763 0.2763 0.0 0.31 0.31 0.068 -0.31 0.31 0.068 -0.31 -0.31 0.068 0.31 -0.31 0.068 0.2763 0.2763 0.068 0.2763 -0.2763 0.068 -0.2763 -0.2763 0.068 -0.2763 0.2763 0.068</float_array>
+          <technique_common>
+            <accessor source="#representation-1233420-positions-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-1233420-normals">
+          <float_array id="representation-1233420-normals-array" count="216">0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-1233420-normals-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-1233420-texcoord-0">
+          <float_array id="representation-1233420-texcoord-0-array" count="144">-0.2763 0.0 -0.2763 0.066 0.2763 0.0 0.2763 0.066 -0.2763 0.0 -0.2763 0.066 0.2763 0.0 0.2763 0.066 -0.2763 0.0 -0.2763 0.066 0.2763 0.0 0.2763 0.066 -0.2763 0.0 -0.2763 0.066 0.2763 0.0 0.2763 0.066 -0.2763 0.2763 0.2763 0.2763 0.2763 -0.2763 -0.2763 -0.2763 0.2763 0.2763 -0.2763 0.2763 -0.2763 -0.2763 0.2763 -0.2763 -0.31 0.0 -0.31 0.068 0.31 0.0 0.31 0.068 -0.31 0.0 -0.31 0.068 0.31 0.0 0.31 0.068 -0.31 0.0 -0.31 0.068 0.31 0.0 0.31 0.068 -0.31 0.0 -0.31 0.068 0.31 0.0 0.31 0.068 -0.2763 0.0 -0.2763 0.068 0.2763 0.0 0.2763 0.068 -0.2763 0.0 -0.2763 0.068 0.2763 0.0 0.2763 0.068 -0.2763 0.0 -0.2763 0.068 0.2763 0.0 0.2763 0.068 -0.2763 0.0 -0.2763 0.068 0.2763 0.0 0.2763 0.068 -0.31 0.31 0.31 0.31 0.31 -0.31 -0.31 -0.31 -0.2763 0.2763 -0.2763 -0.2763 0.2763 -0.2763 0.2763 0.2763 0.31 0.31 -0.31 0.31 -0.31 -0.31 0.31 -0.31 0.2763 0.2763 0.2763 -0.2763 -0.2763 -0.2763 -0.2763 0.2763</float_array>
+          <technique_common>
+            <accessor source="#representation-1233420-texcoord-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-1233420-texcoord-1">
+          <float_array id="representation-1233420-texcoord-1-array" count="144">1.0 0.0 0.958138 0.0 1.0 0.445645 0.958138 0.445645 1.0 0.5 0.958138 0.5 1.0 0.945645 0.958138 0.945645 0.916275 0.945645 0.958138 0.945645 0.916275 0.5 0.958137 0.5 0.958138 0.0 0.916275 2.40341e-08 0.958138 0.445645 0.916275 0.445645 0.743752 0.5 0.393251 0.5 0.393251 0.945645 0.743752 0.945645 0.743752 0.445645 0.393251 0.445645 0.393251 4.80683e-08 0.743752 0.0 0.786883 1.0 0.830014 1.0 0.786883 0.5 0.830014 0.5 0.786883 0.5 0.743752 0.5 0.786883 1.0 0.743752 1.0 0.830014 0.0 0.786883 0.0 0.830014 0.5 0.786883 0.5 0.743752 0.5 0.786883 0.5 0.743752 0.0 0.786883 0.0 0.916275 0.5 0.873144 0.5 0.916275 0.945645 0.873144 0.945645 0.916275 0.0 0.873145 0.0 0.916275 0.445645 0.873145 0.445645 0.873144 0.0 0.830014 2.40341e-08 0.873145 0.445645 0.830014 0.445645 0.830014 0.945645 0.873144 0.945645 0.830014 0.5 0.873144 0.5 0.393251 0.5 0.0 0.5 3.78058e-08 1.0 0.393251 1.0 0.371876 0.527177 0.371876 0.972823 0.0213751 0.972823 0.0213751 0.527177 0.393251 0.5 3.78058e-08 0.5 0.0 4.80683e-08 0.393251 0.0 0.371876 0.472823 0.371876 0.0271774 0.0213751 0.0271775 0.0213751 0.472823</float_array>
+          <technique_common>
+            <accessor source="#representation-1233420-texcoord-1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-1233420-vertices">
+          <input semantic="POSITION" source="#representation-1233420-positions"/>
+        </vertices>
+        <triangles material="Materiał_Przesłony_PMMA_LENA" count="12">
+          <input semantic="VERTEX" source="#representation-1233420-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-1233420-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-1233420-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-1233420-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+        <triangles material="WHITE" count="32">
+          <input semantic="VERTEX" source="#representation-1233420-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-1233420-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-1233420-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-1233420-texcoord-1" offset="0" set="1"/>
+          <p>25 24 26 27 25 26 29 28 30 31 29 30 33 32 34 35 33 34 37 36 38 39 37 38 41 40 42 43 41 42 45 44 46 47 45 46 49 48 50 51 49 50 53 52 54 55 53 54 56 60 63 56 63 57 61 60 59 60 56 59 63 62 58 57 63 58 61 59 58 62 61 58 71 68 64 65 71 64 67 68 69 67 64 68 66 70 71 66 71 65 66 67 69 66 69 70 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="0uYo$TMBP9xeLXeAHVDjOc" name="0uYo$TMBP9xeLXeAHVDjOc" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 16.89668274 0.00000000 -1.00000000 0.00000009 8.86173534 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjRm" name="0uYo$TMBP9xeLXeAHVDjRm" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 44.73983002 0.00000000 -1.00000000 0.00000009 8.97705650 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjQz" name="0uYo$TMBP9xeLXeAHVDjQz" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 50.45567322 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjQb" name="0uYo$TMBP9xeLXeAHVDjQb" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 47.45566940 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjQl" name="0uYo$TMBP9xeLXeAHVDjQl" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 43.85567093 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjLP" name="0uYo$TMBP9xeLXeAHVDjLP" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 40.81639481 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjL1" name="0uYo$TMBP9xeLXeAHVDjL1" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 38.21639633 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjL9" name="0uYo$TMBP9xeLXeAHVDjL9" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 35.31639481 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjLn" name="0uYo$TMBP9xeLXeAHVDjLn" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 31.91639519 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjL$" name="0uYo$TMBP9xeLXeAHVDjL$" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 28.91639709 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjLd" name="0uYo$TMBP9xeLXeAHVDjLd" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 26.11639595 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjLl" name="0uYo$TMBP9xeLXeAHVDjLl" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 23.11639595 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjKN" name="0uYo$TMBP9xeLXeAHVDjKN" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 19.84750175 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjKV" name="0uYo$TMBP9xeLXeAHVDjKV" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 16.94750214 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjKe" name="0uYo$TMBP9xeLXeAHVDjKe" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 39.18059921 0.00000000 -1.00000000 0.00000009 8.85762978 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjNI" name="0uYo$TMBP9xeLXeAHVDjNI" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 35.18059540 0.00000000 -1.00000000 0.00000009 8.85762978 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjNQ" name="0uYo$TMBP9xeLXeAHVDjNQ" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 31.88059616 0.00000000 -1.00000000 0.00000009 8.85762978 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjN4" name="0uYo$TMBP9xeLXeAHVDjN4" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 27.07648468 0.00000000 -1.00000000 0.00000009 9.16595650 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjM8" name="0uYo$TMBP9xeLXeAHVDjM8" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 23.57648468 0.00000000 -1.00000000 0.00000009 9.16595650 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjGL" name="0uYo$TMBP9xeLXeAHVDjGL" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 36.90032196 0.00000000 -1.00000000 0.00000009 12.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjGM" name="0uYo$TMBP9xeLXeAHVDjGM" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 33.40032196 0.00000000 -1.00000000 0.00000009 12.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjGN" name="0uYo$TMBP9xeLXeAHVDjGN" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 29.90032387 0.00000000 -1.00000000 0.00000009 12.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjGO" name="0uYo$TMBP9xeLXeAHVDjGO" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 36.90032196 0.00000000 -1.00000000 0.00000009 15.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjGP" name="0uYo$TMBP9xeLXeAHVDjGP" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 33.40032196 0.00000000 -1.00000000 0.00000009 15.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjGQ" name="0uYo$TMBP9xeLXeAHVDjGQ" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 29.90032387 0.00000000 -1.00000000 0.00000009 15.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjGj" name="0uYo$TMBP9xeLXeAHVDjGj" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 25.03032684 0.00000000 -1.00000000 0.00000009 13.20610142 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjGk" name="0uYo$TMBP9xeLXeAHVDjGk" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 21.53032684 0.00000000 -1.00000000 0.00000009 13.20610142 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjJW" name="0uYo$TMBP9xeLXeAHVDjJW" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 25.03032684 0.00000000 -1.00000000 0.00000009 15.70610237 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjJe" name="0uYo$TMBP9xeLXeAHVDjJe" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 21.53032684 0.00000000 -1.00000000 0.00000009 15.70610237 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjII" name="0uYo$TMBP9xeLXeAHVDjII" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 19.89668274 0.00000000 -1.00000000 0.00000009 8.86173534 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjID" name="0uYo$TMBP9xeLXeAHVDjID" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 14.69668388 0.00000000 -1.00000000 0.00000009 8.86173534 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjIr" name="0uYo$TMBP9xeLXeAHVDjIr" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 10.39668274 0.00000000 -1.00000000 0.00000009 8.86173534 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjj6" name="0uYo$TMBP9xeLXeAHVDjj6" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 16.29741859 0.00000000 -1.00000000 0.00000009 12.58264160 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjjq" name="0uYo$TMBP9xeLXeAHVDjjq" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 18.15385818 0.00000000 -1.00000000 0.00000009 11.28274918 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjjy" name="0uYo$TMBP9xeLXeAHVDjjy" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 18.15385818 0.00000000 -1.00000000 0.00000009 12.58274937 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjja" name="0uYo$TMBP9xeLXeAHVDjja" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 18.15385818 0.00000000 -1.00000000 0.00000009 14.75761032 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjji" name="0uYo$TMBP9xeLXeAHVDjji" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 16.52415085 0.00000000 -1.00000000 0.00000009 16.87606621 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjiK" name="0uYo$TMBP9xeLXeAHVDjiK" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 12.62396717 0.00000000 -1.00000000 0.00000009 11.30602837 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjiS" name="0uYo$TMBP9xeLXeAHVDjiS" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 12.62396717 0.00000000 -1.00000000 0.00000009 5.90602827 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDji4" name="0uYo$TMBP9xeLXeAHVDji4" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 8.75934505 0.00000000 -1.00000000 0.00000009 8.51274967 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjiC" name="0uYo$TMBP9xeLXeAHVDjiC" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 8.75934505 0.00000000 -1.00000000 0.00000009 12.51274967 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjiq" name="0uYo$TMBP9xeLXeAHVDjiq" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 10.66437817 0.00000000 -1.00000000 0.00000009 13.61262131 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjiy" name="0uYo$TMBP9xeLXeAHVDjiy" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 8.33092594 0.00000000 -1.00000000 0.00000009 15.94607258 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjia" name="0uYo$TMBP9xeLXeAHVDjia" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 5.83092594 0.00000000 -1.00000000 0.00000009 15.94607258 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjii" name="0uYo$TMBP9xeLXeAHVDjii" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 5.83092594 0.00000000 -1.00000000 0.00000009 12.88295364 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjlK" name="0uYo$TMBP9xeLXeAHVDjlK" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 5.08670473 0.00000000 -1.00000000 0.00000009 10.28754711 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjlS" name="0uYo$TMBP9xeLXeAHVDjlS" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 5.08670473 0.00000000 -1.00000000 0.00000009 7.41756630 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjl6" name="0uYo$TMBP9xeLXeAHVDjl6" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 3.30230331 0.00000000 -1.00000000 0.00000009 4.06159544 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjlE" name="0uYo$TMBP9xeLXeAHVDjlE" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 3.30230331 0.00000000 -1.00000000 0.00000009 1.06159544 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjlw" name="0uYo$TMBP9xeLXeAHVDjlw" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 7.60567522 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjla" name="0uYo$TMBP9xeLXeAHVDjla" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 13.80567455 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjli" name="0uYo$TMBP9xeLXeAHVDjli" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 11.30567551 0.00000000 -1.00000000 0.00000009 2.37726808 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjk_" name="0uYo$TMBP9xeLXeAHVDjk_" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 17.55031776 0.00000000 -1.00000000 0.00000009 5.98261499 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjka" name="0uYo$TMBP9xeLXeAHVDjka" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 22.52031898 0.00000000 -1.00000000 0.00000009 5.98261499 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjki" name="0uYo$TMBP9xeLXeAHVDjki" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 27.49031830 0.00000000 -1.00000000 0.00000009 5.98261499 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjfK" name="0uYo$TMBP9xeLXeAHVDjfK" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 32.46031952 0.00000000 -1.00000000 0.00000009 5.98261499 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjfQ" name="0uYo$TMBP9xeLXeAHVDjfQ" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 37.43031693 0.00000000 -1.00000000 0.00000009 5.98261499 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0uYo$TMBP9xeLXeAHVDjea" name="0uYo$TMBP9xeLXeAHVDjea" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 47.37031937 0.00000000 -1.00000000 0.00000009 5.98261499 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0hFJY6xdjCI8JN7OOUGrlB" name="0hFJY6xdjCI8JN7OOUGrlB" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 52.48004913 0.00000000 -1.00000000 0.00000009 12.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0hFJY6xdjCI8JN7OOUGrlA" name="0hFJY6xdjCI8JN7OOUGrlA" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 48.98004913 0.00000000 -1.00000000 0.00000009 12.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0hFJY6xdjCI8JN7OOUGrlL" name="0hFJY6xdjCI8JN7OOUGrlL" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 45.48004913 0.00000000 -1.00000000 0.00000009 12.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0hFJY6xdjCI8JN7OOUGrlK" name="0hFJY6xdjCI8JN7OOUGrlK" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 41.98004532 0.00000000 -1.00000000 0.00000009 12.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0hFJY6xdjCI8JN7OOUGrkr" name="0hFJY6xdjCI8JN7OOUGrkr" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 52.48004913 0.00000000 -1.00000000 0.00000009 15.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0hFJY6xdjCI8JN7OOUGrkz" name="0hFJY6xdjCI8JN7OOUGrkz" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 48.98004913 0.00000000 -1.00000000 0.00000009 15.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0hFJY6xdjCI8JN7OOUGrj7" name="0hFJY6xdjCI8JN7OOUGrj7" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 45.48004913 0.00000000 -1.00000000 0.00000009 15.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3UNOH9LqbBIfKq4Eo8Zn8z" name="3UNOH9LqbBIfKq4Eo8Zn8z" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 42.40031815 0.00000000 -1.00000000 0.00000009 5.98261499 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3UNOH9LqbBIfKq4Eo8ZnEJ" name="3UNOH9LqbBIfKq4Eo8ZnEJ" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 41.98004532 0.00000000 -1.00000000 0.00000009 15.70759678 0.00000000 -0.00000009 -1.00000000 10.56999969 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-1233420">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Materiał_Przesłony_PMMA_LENA" target="#Materiał_Przesłony_PMMA_LENA"/>
+              <instance_material symbol="WHITE" target="#WHITE"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

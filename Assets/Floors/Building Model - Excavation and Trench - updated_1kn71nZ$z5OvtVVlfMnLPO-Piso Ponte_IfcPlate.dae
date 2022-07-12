@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2022-05-31T08:08:25</created>
+    <modified>2022-05-31T08:08:25</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Vidro-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.0 0.501961 0.752941 1.0</color>
+            </diffuse>
+            <transparency>
+              <float>0.1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Vidro">
+      <instance_effect url="#Vidro-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-817158">
+      <mesh>
+        <source id="representation-817158-positions">
+          <float_array id="representation-817158-positions-array" count="72">0.527427 0.0245 0.0 0.527427 0.0245 1.105 0.527427 0.0495 0.0 0.527427 0.0495 1.105 0.527427 0.0495 0.0 0.527427 0.0495 1.105 -0.527427 0.0495 0.0 -0.527427 0.0495 1.105 -0.527427 0.0495 0.0 -0.527427 0.0495 1.105 -0.527427 0.0245 0.0 -0.527427 0.0245 1.105 -0.527427 0.0245 0.0 -0.527427 0.0245 1.105 0.527427 0.0245 0.0 0.527427 0.0245 1.105 0.527427 0.0245 0.0 0.527427 0.0495 0.0 -0.527427 0.0495 0.0 -0.527427 0.0245 0.0 0.527427 0.0245 1.105 0.527427 0.0495 1.105 -0.527427 0.0495 1.105 -0.527427 0.0245 1.105</float_array>
+          <technique_common>
+            <accessor source="#representation-817158-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-817158-normals">
+          <float_array id="representation-817158-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-817158-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-817158-texcoord-0">
+          <float_array id="representation-817158-texcoord-0-array" count="48">0.0245 0.0 0.0245 1.105 0.0495 0.0 0.0495 1.105 -0.527427 0.0 -0.527427 1.105 0.527427 0.0 0.527427 1.105 -0.0495 0.0 -0.0495 1.105 -0.0245 0.0 -0.0245 1.105 -0.527427 0.0 -0.527427 1.105 0.527427 0.0 0.527427 1.105 -0.527427 0.0245 -0.527427 0.0495 0.527427 0.0495 0.527427 0.0245 0.527427 0.0245 0.527427 0.0495 -0.527427 0.0495 -0.527427 0.0245</float_array>
+          <technique_common>
+            <accessor source="#representation-817158-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-817158-texcoord-1">
+          <float_array id="representation-817158-texcoord-1-array" count="48">0.988424 6.20901e-10 0.988424 0.511609 1.0 0.0 1.0 0.511609 0.488424 0.511609 0.488424 0.0 1.10394e-07 0.511609 0.0 5.51932e-08 0.988424 0.511609 0.988424 0.0 0.976849 0.511609 0.976849 0.0 0.976849 0.511609 0.976849 0.0 0.488424 0.511609 0.488424 0.0 0.0115756 0.511609 0.0 0.511609 7.93456e-08 1.0 0.0115757 1.0 0.0115757 0.511609 0.0231514 0.511609 0.0231514 1.0 0.0115758 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-817158-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-817158-vertices">
+          <input semantic="POSITION" source="#representation-817158-positions"/>
+        </vertices>
+        <triangles material="Vidro" count="12">
+          <input semantic="VERTEX" source="#representation-817158-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-817158-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-817158-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-817158-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-817033">
+      <mesh>
+        <source id="representation-817033-positions">
+          <float_array id="representation-817033-positions-array" count="72">0.54 0.0245 0.0 0.54 0.0245 1.105 0.54 0.0495 0.0 0.54 0.0495 1.105 0.54 0.0495 0.0 0.54 0.0495 1.105 -0.54 0.0495 0.0 -0.54 0.0495 1.105 -0.54 0.0495 0.0 -0.54 0.0495 1.105 -0.54 0.0245 0.0 -0.54 0.0245 1.105 -0.54 0.0245 0.0 -0.54 0.0245 1.105 0.54 0.0245 0.0 0.54 0.0245 1.105 0.54 0.0245 0.0 0.54 0.0495 0.0 -0.54 0.0495 0.0 -0.54 0.0245 0.0 0.54 0.0245 1.105 0.54 0.0495 1.105 -0.54 0.0495 1.105 -0.54 0.0245 1.105</float_array>
+          <technique_common>
+            <accessor source="#representation-817033-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-817033-normals">
+          <float_array id="representation-817033-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-817033-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-817033-texcoord-0">
+          <float_array id="representation-817033-texcoord-0-array" count="48">0.0245 0.0 0.0245 1.105 0.0495 0.0 0.0495 1.105 -0.54 0.0 -0.54 1.105 0.54 0.0 0.54 1.105 -0.0495 0.0 -0.0495 1.105 -0.0245 0.0 -0.0245 1.105 -0.54 0.0 -0.54 1.105 0.54 0.0 0.54 1.105 -0.54 0.0245 -0.54 0.0495 0.54 0.0495 0.54 0.0245 0.54 0.0245 0.54 0.0495 -0.54 0.0495 -0.54 0.0245</float_array>
+          <technique_common>
+            <accessor source="#representation-817033-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-817033-texcoord-1">
+          <float_array id="representation-817033-texcoord-1-array" count="48">5.96728e-09 0.5 0.0 1.0 0.0114416 0.5 0.0114416 1.0 0.494279 0.5 0.494279 0.0 1.09116e-07 0.5 0.0 5.39408e-08 1.0 0.5 1.0 0.0 0.988558 0.5 0.988558 0.0 0.988558 0.5 0.988558 0.0 0.494279 0.5 0.494279 0.0 0.0228833 0.5 0.0114416 0.5 0.0114417 0.988688 0.0228834 0.988688 0.0228834 0.5 0.034325 0.5 0.0343251 0.988688 0.0228835 0.988688</float_array>
+          <technique_common>
+            <accessor source="#representation-817033-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-817033-vertices">
+          <input semantic="POSITION" source="#representation-817033-positions"/>
+        </vertices>
+        <triangles material="Vidro" count="12">
+          <input semantic="VERTEX" source="#representation-817033-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-817033-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-817033-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-817033-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-816987">
+      <mesh>
+        <source id="representation-816987-positions">
+          <float_array id="representation-816987-positions-array" count="72">0.552569 0.0245 0.0 0.552569 0.0245 1.105 0.552569 0.0495 0.0 0.552569 0.0495 1.105 0.552569 0.0495 0.0 0.552569 0.0495 1.105 -0.552569 0.0495 0.0 -0.552569 0.0495 1.105 -0.552569 0.0495 0.0 -0.552569 0.0495 1.105 -0.552569 0.0245 0.0 -0.552569 0.0245 1.105 -0.552569 0.0245 0.0 -0.552569 0.0245 1.105 0.552569 0.0245 0.0 0.552569 0.0245 1.105 0.552569 0.0245 0.0 0.552569 0.0495 0.0 -0.552569 0.0495 0.0 -0.552569 0.0245 0.0 0.552569 0.0245 1.105 0.552569 0.0495 1.105 -0.552569 0.0495 1.105 -0.552569 0.0245 1.105</float_array>
+          <technique_common>
+            <accessor source="#representation-816987-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-816987-normals">
+          <float_array id="representation-816987-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-816987-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-816987-texcoord-0">
+          <float_array id="representation-816987-texcoord-0-array" count="48">0.0245 0.0 0.0245 1.105 0.0495 0.0 0.0495 1.105 -0.552569 0.0 -0.552569 1.105 0.552569 0.0 0.552569 1.105 -0.0495 0.0 -0.0495 1.105 -0.0245 0.0 -0.0245 1.105 -0.552569 0.0 -0.552569 1.105 0.552569 0.0 0.552569 1.105 -0.552569 0.0245 -0.552569 0.0495 0.552569 0.0495 0.552569 0.0245 0.552569 0.0245 0.552569 0.0495 -0.552569 0.0495 -0.552569 0.0245</float_array>
+          <technique_common>
+            <accessor source="#representation-816987-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-816987-texcoord-1">
+          <float_array id="representation-816987-texcoord-1-array" count="48">0.0339369 0.5 0.0339369 0.999937 0.0452491 0.5 0.0452491 0.999937 1.0 0.0 0.5 5.39341e-08 1.0 0.5 0.5 0.5 0.0339369 0.999937 0.0339368 0.5 0.0226247 0.999937 0.0226246 0.5 8.14705e-08 0.5 0.5 0.5 0.0 8.09011e-08 0.5 0.0 0.0113122 0.5 0.0 0.5 7.754e-08 1.0 0.0113123 1.0 0.0113123 0.5 0.0226245 0.5 0.0226246 1.0 0.0113124 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-816987-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-816987-vertices">
+          <input semantic="POSITION" source="#representation-816987-positions"/>
+        </vertices>
+        <triangles material="Vidro" count="12">
+          <input semantic="VERTEX" source="#representation-816987-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-816987-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-816987-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-816987-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-814708">
+      <mesh>
+        <source id="representation-814708-positions">
+          <float_array id="representation-814708-positions-array" count="72">0.527427 0.0245 0.0 0.527427 0.0245 1.055 0.527427 0.0495 0.0 0.527427 0.0495 1.055 0.527427 0.0495 0.0 0.527427 0.0495 1.055 -0.527427 0.0495 0.0 -0.527427 0.0495 1.055 -0.527427 0.0495 0.0 -0.527427 0.0495 1.055 -0.527427 0.0245 0.0 -0.527427 0.0245 1.055 -0.527427 0.0245 0.0 -0.527427 0.0245 1.055 0.527427 0.0245 0.0 0.527427 0.0245 1.055 0.527427 0.0245 0.0 0.527427 0.0495 0.0 -0.527427 0.0495 0.0 -0.527427 0.0245 0.0 0.527427 0.0245 1.055 0.527427 0.0495 1.055 -0.527427 0.0495 1.055 -0.527427 0.0245 1.055</float_array>
+          <technique_common>
+            <accessor source="#representation-814708-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814708-normals">
+          <float_array id="representation-814708-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-814708-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814708-texcoord-0">
+          <float_array id="representation-814708-texcoord-0-array" count="48">0.0245 0.0 0.0245 1.055 0.0495 0.0 0.0495 1.055 -0.527427 0.0 -0.527427 1.055 0.527427 0.0 0.527427 1.055 -0.0495 0.0 -0.0495 1.055 -0.0245 0.0 -0.0245 1.055 -0.527427 0.0 -0.527427 1.055 0.527427 0.0 0.527427 1.055 -0.527427 0.0245 -0.527427 0.0495 0.527427 0.0495 0.527427 0.0245 0.527427 0.0245 0.527427 0.0495 -0.527427 0.0495 -0.527427 0.0245</float_array>
+          <technique_common>
+            <accessor source="#representation-814708-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814708-texcoord-1">
+          <float_array id="representation-814708-texcoord-1-array" count="48">0.0118501 0.5 0.0118501 1.0 0.0237001 0.5 0.0237 1.0 0.5 0.5 0.5 0.0 1.1301e-07 0.5 0.0 0.0 0.0118501 1.0 0.01185 0.5 8.2109e-08 1.0 0.0 0.5 1.0 0.5 1.0 0.0 0.5 0.5 0.5 0.0 0.03555 0.5 0.0237001 0.5 0.0237001 0.999931 0.0355501 0.999931 0.0355501 0.5 0.0474001 0.5 0.0474002 0.999931 0.0355502 0.999931</float_array>
+          <technique_common>
+            <accessor source="#representation-814708-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-814708-vertices">
+          <input semantic="POSITION" source="#representation-814708-positions"/>
+        </vertices>
+        <triangles material="Vidro" count="12">
+          <input semantic="VERTEX" source="#representation-814708-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-814708-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-814708-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-814708-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-814583">
+      <mesh>
+        <source id="representation-814583-positions">
+          <float_array id="representation-814583-positions-array" count="72">0.54 0.0245 0.0 0.54 0.0245 1.055 0.54 0.0495 0.0 0.54 0.0495 1.055 0.54 0.0495 0.0 0.54 0.0495 1.055 -0.54 0.0495 0.0 -0.54 0.0495 1.055 -0.54 0.0495 0.0 -0.54 0.0495 1.055 -0.54 0.0245 0.0 -0.54 0.0245 1.055 -0.54 0.0245 0.0 -0.54 0.0245 1.055 0.54 0.0245 0.0 0.54 0.0245 1.055 0.54 0.0245 0.0 0.54 0.0495 0.0 -0.54 0.0495 0.0 -0.54 0.0245 0.0 0.54 0.0245 1.055 0.54 0.0495 1.055 -0.54 0.0495 1.055 -0.54 0.0245 1.055</float_array>
+          <technique_common>
+            <accessor source="#representation-814583-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814583-normals">
+          <float_array id="representation-814583-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-814583-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814583-texcoord-0">
+          <float_array id="representation-814583-texcoord-0-array" count="48">0.0245 0.0 0.0245 1.055 0.0495 0.0 0.0495 1.055 -0.54 0.0 -0.54 1.055 0.54 0.0 0.54 1.055 -0.0495 0.0 -0.0495 1.055 -0.0245 0.0 -0.0245 1.055 -0.54 0.0 -0.54 1.055 0.54 0.0 0.54 1.055 -0.54 0.0245 -0.54 0.0495 0.54 0.0495 0.54 0.0245 0.54 0.0245 0.54 0.0495 -0.54 0.0495 -0.54 0.0245</float_array>
+          <technique_common>
+            <accessor source="#representation-814583-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814583-texcoord-1">
+          <float_array id="representation-814583-texcoord-1-array" count="48">0.0234194 0.5 0.0234194 0.988426 0.035129 0.5 0.035129 0.988426 0.98829 0.0 0.494145 8.27842e-08 0.98829 0.5 0.494145 0.5 0.0234194 0.988426 0.0234193 0.5 0.0117098 0.988426 0.0117097 0.5 8.24142e-08 0.5 0.494145 0.5 0.0 8.27842e-08 0.494145 0.0 1.0 0.0 0.98829 0.0 0.98829 0.5 1.0 0.5 0.0 0.5 0.0117096 0.5 0.0117097 1.0 8.37536e-08 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-814583-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-814583-vertices">
+          <input semantic="POSITION" source="#representation-814583-positions"/>
+        </vertices>
+        <triangles material="Vidro" count="12">
+          <input semantic="VERTEX" source="#representation-814583-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-814583-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-814583-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-814583-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-814537">
+      <mesh>
+        <source id="representation-814537-positions">
+          <float_array id="representation-814537-positions-array" count="72">0.552573 0.0245 0.0 0.552573 0.0245 1.055 0.552573 0.0495 0.0 0.552573 0.0495 1.055 0.552573 0.0495 0.0 0.552573 0.0495 1.055 -0.552573 0.0495 0.0 -0.552573 0.0495 1.055 -0.552573 0.0495 0.0 -0.552573 0.0495 1.055 -0.552573 0.0245 0.0 -0.552573 0.0245 1.055 -0.552573 0.0245 0.0 -0.552573 0.0245 1.055 0.552573 0.0245 0.0 0.552573 0.0245 1.055 0.552573 0.0245 0.0 0.552573 0.0495 0.0 -0.552573 0.0495 0.0 -0.552573 0.0245 0.0 0.552573 0.0245 1.055 0.552573 0.0495 1.055 -0.552573 0.0495 1.055 -0.552573 0.0245 1.055</float_array>
+          <technique_common>
+            <accessor source="#representation-814537-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814537-normals">
+          <float_array id="representation-814537-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-814537-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814537-texcoord-0">
+          <float_array id="representation-814537-texcoord-0-array" count="48">0.0245 0.0 0.0245 1.055 0.0495 0.0 0.0495 1.055 -0.552573 0.0 -0.552573 1.055 0.552573 0.0 0.552573 1.055 -0.0495 0.0 -0.0495 1.055 -0.0245 0.0 -0.0245 1.055 -0.552573 0.0 -0.552573 1.055 0.552573 0.0 0.552573 1.055 -0.552573 0.0245 -0.552573 0.0495 0.552573 0.0495 0.552573 0.0245 0.552573 0.0245 0.552573 0.0495 -0.552573 0.0495 -0.552573 0.0245</float_array>
+          <technique_common>
+            <accessor source="#representation-814537-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-814537-texcoord-1">
+          <float_array id="representation-814537-texcoord-1-array" count="48">0.0115742 0.511607 0.0115742 1.0 0.0231482 0.511607 0.0231482 1.0 0.976852 0.0 0.488426 5.51857e-08 0.976852 0.511607 0.488426 0.511607 0.0115742 1.0 0.0115741 0.511607 8.01972e-08 1.0 0.0 0.511607 8.3357e-08 0.511607 0.488426 0.511607 0.0 8.27786e-08 0.488426 0.0 0.988426 0.0 0.976852 0.0 0.976852 0.511607 0.988426 0.511607 0.988426 0.0 1.0 0.0 1.0 0.511607 0.988426 0.511607</float_array>
+          <technique_common>
+            <accessor source="#representation-814537-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-814537-vertices">
+          <input semantic="POSITION" source="#representation-814537-positions"/>
+        </vertices>
+        <triangles material="Vidro" count="12">
+          <input semantic="VERTEX" source="#representation-814537-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-814537-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-814537-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-814537-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="2IhxVQnWb4CfEretmioJXq" name="2IhxVQnWb4CfEretmioJXq" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 63.84287262 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817158">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJao" name="2IhxVQnWb4CfEretmioJao" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 63.84287262 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 6.09999990 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817158">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJXr" name="2IhxVQnWb4CfEretmioJXr" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 62.72544861 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJXA" name="2IhxVQnWb4CfEretmioJXA" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 61.59544754 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJXB" name="2IhxVQnWb4CfEretmioJXB" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 60.46544266 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJX8" name="2IhxVQnWb4CfEretmioJX8" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 59.33544159 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJX9" name="2IhxVQnWb4CfEretmioJX9" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 58.20544434 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJXE" name="2IhxVQnWb4CfEretmioJXE" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 57.07544327 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJam" name="2IhxVQnWb4CfEretmioJam" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 62.72544861 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 6.09999990 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJaE" name="2IhxVQnWb4CfEretmioJaE" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 61.59544754 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 6.09999990 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJas" name="2IhxVQnWb4CfEretmioJas" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 60.46544266 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 6.09999990 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJa8" name="2IhxVQnWb4CfEretmioJa8" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 59.33544159 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 6.09999990 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJaq" name="2IhxVQnWb4CfEretmioJaq" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 58.20544434 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 6.09999990 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJaA" name="2IhxVQnWb4CfEretmioJaA" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 57.07544327 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 6.09999990 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-817033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJXF" name="2IhxVQnWb4CfEretmioJXF" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 55.93287659 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-816987">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJaC" name="2IhxVQnWb4CfEretmioJaC" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 55.93287659 0.00000000 1.00000000 0.00000000 7.53307581 0.00000000 0.00000000 1.00000000 6.09999990 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-816987">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJWw" name="2IhxVQnWb4CfEretmioJWw" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 63.84287262 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814708">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJeZ" name="2IhxVQnWb4CfEretmioJeZ" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 63.84287262 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 6.15000010 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814708">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJWx" name="2IhxVQnWb4CfEretmioJWx" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 62.72544861 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJWu" name="2IhxVQnWb4CfEretmioJWu" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 61.59544754 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJWv" name="2IhxVQnWb4CfEretmioJWv" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 60.46544266 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJW_" name="2IhxVQnWb4CfEretmioJW_" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 59.33544159 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJW$" name="2IhxVQnWb4CfEretmioJW$" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 58.20544434 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJWy" name="2IhxVQnWb4CfEretmioJWy" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 57.07544327 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJhz" name="2IhxVQnWb4CfEretmioJhz" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 62.72544861 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 6.15000010 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3fEVMmC556q8Ls9bVpuqHC" name="3fEVMmC556q8Ls9bVpuqHC" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 61.59544754 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 6.15000010 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJhr" name="2IhxVQnWb4CfEretmioJhr" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 60.46544266 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 6.15000010 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJmo" name="2IhxVQnWb4CfEretmioJmo" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 59.33544159 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 6.15000010 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJis" name="2IhxVQnWb4CfEretmioJis" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 58.20544434 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 6.15000010 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJl8" name="2IhxVQnWb4CfEretmioJl8" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 57.07544327 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 6.15000010 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814583">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2IhxVQnWb4CfEretmioJWz" name="2IhxVQnWb4CfEretmioJWz" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 55.93287277 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 7.25500011 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814537">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3fEVMmC556q8Ls9bVpuqU7" name="3fEVMmC556q8Ls9bVpuqU7" type="NODE">
+        <matrix sid="transform">1.00000000 0.00000000 0.00000000 55.93287277 0.00000000 1.00000000 0.00000000 10.00804806 0.00000000 0.00000000 1.00000000 6.15000010 0.00000000 0.00000000 0.00000000 1.00000000</matrix>
+        <instance_geometry url="#representation-814537">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vidro" target="#Vidro"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>
